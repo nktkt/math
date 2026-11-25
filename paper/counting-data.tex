@@ -1,0 +1,16 @@
+% Both editions use the same theorem and the same seven published data points.
+\newcommand{\threeColumnIdentities}{%
+\begin{align}
+ T(n,3) &= \left(1+n+\binom n2\right)^3-n^4+\binom n2 \label{eq:count}\\
+        &= \frac{n^6+3n^5+n^4+13n^3+22n^2+8n+8}{8}. \label{eq:polynomial}
+\end{align}%
+}
+
+\newcommand{\threeColumnValues}{%
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+$n$      &3&4&5&6&7&8&9\\
+$T(n,3)$ &265&1\,081&3\,481&9\,367&22\,009&46\,585&90\,811\\
+\bottomrule
+\end{tabular}%
+}

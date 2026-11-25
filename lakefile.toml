@@ -1,0 +1,11 @@
+name = "mathar_three_columns"
+version = "0.1.0"
+defaultTargets = ["MatharThreeColumns"]
+
+[[lean_lib]]
+name = "MatharThreeColumns"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "5e932f97dd25535344f80f9dd8da3aab83df0fe6"
